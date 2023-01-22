@@ -24,6 +24,18 @@ pygalmesh is a Python frontend to [CGAL](https://www.cgal.org/)'s
 capabilities](https://doc.cgal.org/latest/Mesh_3/index.html). pygalmesh makes it easy
 to create high-quality 2D, 3D volume meshes, periodic volume meshes, and surface meshes.
 
+## Jan 22nd - should work on apple M1
+
+Had to do brew install gmp cgal eigen
+M1 homebrew defaults to /opt/homebrew/include, modified the setup.py script
+
+First, source this repo
+
+```
+cd dir
+pip install .
+```
+
 ### Examples
 
 #### 2D meshes
