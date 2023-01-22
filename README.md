@@ -26,10 +26,14 @@ to create high-quality 2D, 3D volume meshes, periodic volume meshes, and surface
 
 ## Jan 22nd - should work on apple M1
 
-Had to do brew install gmp cgal eigen
-M1 homebrew defaults to /opt/homebrew/include, modified the setup.py script
+Had to first do..
 
-First, source this repo
+```brew install gmp cgal eigen
+```
+
+M1 homebrew defaults to /opt/homebrew/include, thus needed to modify the setup.py script
+
+So to install source this repo, then run..
 
 ```
 cd dir
